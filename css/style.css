@@ -21,7 +21,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  letter-spacing: 0.19px;
   background-color: var(--light-grey);
 }
 
@@ -48,6 +47,8 @@ body {
 .card__text {
   font-size: 0.9375rem;
   line-height: 1.1875rem;
+  letter-spacing: 0.1875px;
+  margin: 0 1rem;
   color: var(--grey);
   text-align: center;
 }
